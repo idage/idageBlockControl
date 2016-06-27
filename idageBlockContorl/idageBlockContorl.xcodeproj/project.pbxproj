@@ -16,7 +16,6 @@
 		7C423C761D1BA47D00947199 /* idageBlockContorlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C423C751D1BA47D00947199 /* idageBlockContorlTests.m */; };
 		7C423C811D1BA47E00947199 /* idageBlockContorlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C423C801D1BA47E00947199 /* idageBlockContorlUITests.m */; };
 		7C423C921D1BA49E00947199 /* UIControl+blockTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C423C8F1D1BA49E00947199 /* UIControl+blockTarget.m */; };
-		7C423C931D1BA49E00947199 /* NSNotificationCenter+blockTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C423C911D1BA49E00947199 /* NSNotificationCenter+blockTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,6 @@
 		7C423C821D1BA47E00947199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C423C8E1D1BA49E00947199 /* UIControl+blockTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+blockTarget.h"; sourceTree = "<group>"; };
 		7C423C8F1D1BA49E00947199 /* UIControl+blockTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+blockTarget.m"; sourceTree = "<group>"; };
-		7C423C901D1BA49E00947199 /* NSNotificationCenter+blockTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+blockTarget.h"; sourceTree = "<group>"; };
-		7C423C911D1BA49E00947199 /* NSNotificationCenter+blockTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+blockTarget.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +106,6 @@
 			children = (
 				7C423C8E1D1BA49E00947199 /* UIControl+blockTarget.h */,
 				7C423C8F1D1BA49E00947199 /* UIControl+blockTarget.m */,
-				7C423C901D1BA49E00947199 /* NSNotificationCenter+blockTarget.h */,
-				7C423C911D1BA49E00947199 /* NSNotificationCenter+blockTarget.m */,
 				7C423C5E1D1BA47D00947199 /* AppDelegate.h */,
 				7C423C5F1D1BA47D00947199 /* AppDelegate.m */,
 				7C423C611D1BA47D00947199 /* ViewController.h */,
@@ -280,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C423C931D1BA49E00947199 /* NSNotificationCenter+blockTarget.m in Sources */,
 				7C423C631D1BA47D00947199 /* ViewController.m in Sources */,
 				7C423C601D1BA47D00947199 /* AppDelegate.m in Sources */,
 				7C423C921D1BA49E00947199 /* UIControl+blockTarget.m in Sources */,
@@ -508,6 +502,7 @@
 				7C423C871D1BA47E00947199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C423C881D1BA47E00947199 /* Build configuration list for PBXNativeTarget "idageBlockContorlTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +511,7 @@
 				7C423C8A1D1BA47E00947199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C423C8B1D1BA47E00947199 /* Build configuration list for PBXNativeTarget "idageBlockContorlUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +520,7 @@
 				7C423C8D1D1BA47E00947199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

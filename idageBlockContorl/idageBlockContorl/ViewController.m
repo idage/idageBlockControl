@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "UIControl+blockTarget.h"
-#import "NSNotificationCenter+blockTarget.h"
 @interface ViewController ()
 
 @end
@@ -36,10 +35,6 @@
     [self.view addSubview:textfield];
     
     
-    [[NSNotificationCenter defaultCenter]addObserver:self name:@"testNo" object:nil respond:^{
-        //接收到通知
-    }];
-
     
     // Do any additional setup after loading the view, typically from a nib.
 }
